@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <header class="flex items-center bg-cyan-900 p-4">
+      <span class="text-4xl font-bold mr-auto text-white">Ark</span>
+      <nav class="mx-auto flex-row">
+        <button class="rounded bg-black text-white p-2">Home</button>
+        <button class="rounded bg-black text-white p-2">About</button>
+        <button class="rounded bg-black text-white p-2">Home</button>
+      </nav>
+      <div class="ml-auto bg-cyan-950 rounded flex flex-row">
+        <input class="rounded m-1" type="text" h id="inputText" />
+        <button class="rounded bg-black text-white p-1" onclick="changeText()">
+          Text
+        </button>
+      </div>
+    </header>
+    <div class="bg-cyan-200 text-center text-lg">
+      <h1 id="text">Text is here</h1>
+      <span id="counter">0</span>
+    </div>
+  </body>
+</html>
